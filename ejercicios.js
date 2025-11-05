@@ -164,9 +164,12 @@ function sumaHastaN(n) {
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
   const tabla = [];
+  for (let i = 1; i <= 10; i++) {
+    tabla.push(numero * i);
+  }
+  
   return tabla;
 }
-
 /**
  * Ejercicio 3.4: Números pares hasta n (6 puntos)
  * @param {number} n - Número límite
