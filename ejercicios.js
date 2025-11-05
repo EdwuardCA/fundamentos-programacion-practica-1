@@ -130,7 +130,13 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  let resultado = 1;
+  
+  for (let i = n; i >= 1; i--) {
+    resultado *= i;
+  }
+  
+  return resultado;
 }
 
 /**
@@ -140,7 +146,13 @@ function factorial(n) {
  */
 function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los números desde 1 hasta n
-  return 0;
+  let suma = 0;
+  
+  for (let i = 1; i <= n; i++) {
+    suma += i;
+  }
+  
+  return suma;
 }
 
 /**
