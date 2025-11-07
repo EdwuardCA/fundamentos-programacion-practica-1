@@ -193,7 +193,7 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  return numeros.reduce((suma, num) => suma + num, 0);
 }
 
 /**
